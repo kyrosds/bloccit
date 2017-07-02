@@ -35,3 +35,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
 
+# Encrypts user passwords
+gem 'bcrypt'
+
