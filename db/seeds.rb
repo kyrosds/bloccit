@@ -42,13 +42,13 @@ end
        ) 
 end
 
-puts "#{Post.count}"
-Post.find_or_create_by!(title: "Hello", body: "This is the body",)
-puts "#{Post.count}"
+#puts "#{Post.count}"
+#Post.find_or_create_by!(title: "Hello", body: "This is the body",)
+#puts "#{Post.count}"
 
-puts "#{Comment.count}"
-Comment.find_or_create_by!(body: "This is a comment body")
-puts "#{Comment.count}"
+#puts "#{Comment.count}"
+#Comment.find_or_create_by!(body: "This is a comment body")
+#puts "#{Comment.count}"
 
 puts "Seed finished"
 puts "#{Topic.count} topics created"
