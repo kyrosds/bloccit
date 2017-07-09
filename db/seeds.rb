@@ -60,9 +60,16 @@ end
 #Comment.find_or_create_by!(body: "This is a comment body")
 #puts "#{Comment.count}"
 
-user = User.first
-user.update_attributes!(
-        email: 'd.sires@yahoo.com',
+admin = User.create!(
+        name: 'Admin User',
+        email: 'admin@example.com',
+        password: 'helloworld',
+        role: 'admin'
+    )
+    
+member = User.create!(
+        name: 'Member User',
+        email: 'member@example.com',
         password: 'helloworld'
     )
 
