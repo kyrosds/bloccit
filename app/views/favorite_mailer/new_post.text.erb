@@ -1,0 +1,4 @@
+You have followed "<%= @post.title %>", you will recieve notification of all future comments. If you do not want 
+follow this post any longer, please unfavorite the <%= link_to "post", topic_post_url(@post.topic, @post) %>.
+
+<%= link_to "View Post on site", topic_post_url(@post.topic, @post) %>
